@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ReactLab/static/css/main.9e575bf5.chunk.css",
-    "main.js": "/ReactLab/static/js/main.4a7f1e22.chunk.js",
-    "main.js.map": "/ReactLab/static/js/main.4a7f1e22.chunk.js.map",
+    "main.css": "/ReactLab/static/css/main.19a5e4ca.chunk.css",
+    "main.js": "/ReactLab/static/js/main.6e5feb4f.chunk.js",
+    "main.js.map": "/ReactLab/static/js/main.6e5feb4f.chunk.js.map",
     "runtime-main.js": "/ReactLab/static/js/runtime-main.e2bea448.js",
     "runtime-main.js.map": "/ReactLab/static/js/runtime-main.e2bea448.js.map",
     "static/js/2.1c78a050.chunk.js": "/ReactLab/static/js/2.1c78a050.chunk.js",
     "static/js/2.1c78a050.chunk.js.map": "/ReactLab/static/js/2.1c78a050.chunk.js.map",
     "index.html": "/ReactLab/index.html",
-    "static/css/main.9e575bf5.chunk.css.map": "/ReactLab/static/css/main.9e575bf5.chunk.css.map",
+    "static/css/main.19a5e4ca.chunk.css.map": "/ReactLab/static/css/main.19a5e4ca.chunk.css.map",
     "static/js/2.1c78a050.chunk.js.LICENSE.txt": "/ReactLab/static/js/2.1c78a050.chunk.js.LICENSE.txt",
     "static/media/MainLogo.e7c7cf34.png": "/ReactLab/static/media/MainLogo.e7c7cf34.png",
-    "static/media/aboutimg.2fbe0ff2.jpg": "/ReactLab/static/media/aboutimg.2fbe0ff2.jpg",
+    "static/media/aboutimg.c4cd357a.jpg": "/ReactLab/static/media/aboutimg.c4cd357a.jpg",
     "static/media/homeimg.ce4bf175.jpg": "/ReactLab/static/media/homeimg.ce4bf175.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e2bea448.js",
     "static/js/2.1c78a050.chunk.js",
-    "static/css/main.9e575bf5.chunk.css",
-    "static/js/main.4a7f1e22.chunk.js"
+    "static/css/main.19a5e4ca.chunk.css",
+    "static/js/main.6e5feb4f.chunk.js"
   ]
 }
