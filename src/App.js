@@ -7,11 +7,9 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
+      <Home></Home>
       
-      <div className="content">
-        <Home></Home>
-      
-      </div>
+
         {/* <h1> {title} </h1> */}
         {/* <p> {pvcFences[0]} </p> */}
     </div>
