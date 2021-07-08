@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/ReactLab/static/css/main.dfeee861.chunk.css",
-    "main.js": "/ReactLab/static/js/main.66dcc958.chunk.js",
-    "main.js.map": "/ReactLab/static/js/main.66dcc958.chunk.js.map",
+    "main.css": "/ReactLab/static/css/main.25a4dc26.chunk.css",
+    "main.js": "/ReactLab/static/js/main.f15ba9a0.chunk.js",
+    "main.js.map": "/ReactLab/static/js/main.f15ba9a0.chunk.js.map",
     "runtime-main.js": "/ReactLab/static/js/runtime-main.e2bea448.js",
     "runtime-main.js.map": "/ReactLab/static/js/runtime-main.e2bea448.js.map",
     "static/css/2.081f420c.chunk.css": "/ReactLab/static/css/2.081f420c.chunk.css",
-    "static/js/2.3fcda197.chunk.js": "/ReactLab/static/js/2.3fcda197.chunk.js",
-    "static/js/2.3fcda197.chunk.js.map": "/ReactLab/static/js/2.3fcda197.chunk.js.map",
+    "static/js/2.1e8c6aa4.chunk.js": "/ReactLab/static/js/2.1e8c6aa4.chunk.js",
+    "static/js/2.1e8c6aa4.chunk.js.map": "/ReactLab/static/js/2.1e8c6aa4.chunk.js.map",
     "index.html": "/ReactLab/index.html",
     "static/css/2.081f420c.chunk.css.map": "/ReactLab/static/css/2.081f420c.chunk.css.map",
-    "static/css/main.dfeee861.chunk.css.map": "/ReactLab/static/css/main.dfeee861.chunk.css.map",
-    "static/js/2.3fcda197.chunk.js.LICENSE.txt": "/ReactLab/static/js/2.3fcda197.chunk.js.LICENSE.txt",
+    "static/css/main.25a4dc26.chunk.css.map": "/ReactLab/static/css/main.25a4dc26.chunk.css.map",
+    "static/js/2.1e8c6aa4.chunk.js.LICENSE.txt": "/ReactLab/static/js/2.1e8c6aa4.chunk.js.LICENSE.txt",
     "static/media/MainLogo.e7c7cf34.png": "/ReactLab/static/media/MainLogo.e7c7cf34.png",
     "static/media/aboutimg.c4cd357a.jpg": "/ReactLab/static/media/aboutimg.c4cd357a.jpg",
-    "static/media/homeimg.ce4bf175.jpg": "/ReactLab/static/media/homeimg.ce4bf175.jpg"
+    "static/media/homeimg.ce4bf175.jpg": "/ReactLab/static/media/homeimg.ce4bf175.jpg",
+    "static/media/wood1.6d22438b.jpg": "/ReactLab/static/media/wood1.6d22438b.jpg",
+    "static/media/wood2.ba869402.jpg": "/ReactLab/static/media/wood2.ba869402.jpg",
+    "static/media/wood3.e02f243f.jpg": "/ReactLab/static/media/wood3.e02f243f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e2bea448.js",
     "static/css/2.081f420c.chunk.css",
-    "static/js/2.3fcda197.chunk.js",
-    "static/css/main.dfeee861.chunk.css",
-    "static/js/main.66dcc958.chunk.js"
+    "static/js/2.1e8c6aa4.chunk.js",
+    "static/css/main.25a4dc26.chunk.css",
+    "static/js/main.f15ba9a0.chunk.js"
   ]
 }
