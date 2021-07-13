@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactLab/static/css/main.8ab4cf3f.chunk.css",
-    "main.js": "/ReactLab/static/js/main.e8d7d65a.chunk.js",
-    "main.js.map": "/ReactLab/static/js/main.e8d7d65a.chunk.js.map",
+    "main.js": "/ReactLab/static/js/main.e50de99b.chunk.js",
+    "main.js.map": "/ReactLab/static/js/main.e50de99b.chunk.js.map",
     "runtime-main.js": "/ReactLab/static/js/runtime-main.e2bea448.js",
     "runtime-main.js.map": "/ReactLab/static/js/runtime-main.e2bea448.js.map",
     "static/css/2.081f420c.chunk.css": "/ReactLab/static/css/2.081f420c.chunk.css",
@@ -14,6 +14,9 @@
     "static/js/2.1e8c6aa4.chunk.js.LICENSE.txt": "/ReactLab/static/js/2.1e8c6aa4.chunk.js.LICENSE.txt",
     "static/media/MainLogo.e7c7cf34.png": "/ReactLab/static/media/MainLogo.e7c7cf34.png",
     "static/media/aboutimg.c4cd357a.jpg": "/ReactLab/static/media/aboutimg.c4cd357a.jpg",
+    "static/media/chain.cf583532.jpg": "/ReactLab/static/media/chain.cf583532.jpg",
+    "static/media/chain2.9238d356.jpg": "/ReactLab/static/media/chain2.9238d356.jpg",
+    "static/media/chain3.a28b91cc.jpg": "/ReactLab/static/media/chain3.a28b91cc.jpg",
     "static/media/homeimg.ce4bf175.jpg": "/ReactLab/static/media/homeimg.ce4bf175.jpg",
     "static/media/pvc.63bfe49a.jpg": "/ReactLab/static/media/pvc.63bfe49a.jpg",
     "static/media/pvc2.c00842c5.jpg": "/ReactLab/static/media/pvc2.c00842c5.jpg",
@@ -27,6 +30,6 @@
     "static/css/2.081f420c.chunk.css",
     "static/js/2.1e8c6aa4.chunk.js",
     "static/css/main.8ab4cf3f.chunk.css",
-    "static/js/main.e8d7d65a.chunk.js"
+    "static/js/main.e50de99b.chunk.js"
   ]
 }
