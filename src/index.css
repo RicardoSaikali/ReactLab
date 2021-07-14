@@ -1,5 +1,5 @@
 .subtitle{
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 p{
@@ -215,12 +215,83 @@ code {
 }
 .optionstitle{
   text-align: center;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 !important;
+  font-size: 2vw;
 }
 
+.card{
+  border: 1px solid rgba(0,0,0,.125) !important;
+}
 .card-header{
   background-color: white !important;
+  padding: 1vw !important;
+  vertical-align: middle !important;
 }
 
 .card-header:hover{
-  background-color: rgba(216, 4, 4, 0.78) !important;
+  background-color: #d80404!important;
+  color: white;
+}
+
+.fencecard{
+  margin: 2vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1vw;
+  border: 1px solid rgba(0,0,0,.125) !important;
+  width: 30vw;
+  height: 100%;
+}
+
+.fenceName{
+  font-size: 1.5vw;
+}
+
+.fenceDesc{
+  font-size: 1vw;
+}
+
+.fencetable{
+  table-layout: fixed;
+  width: 100%;
+}
+
+.fenceoptionimg{
+  width: 100%;
+}
+
+.requestQuote{
+  color: white;
+  background-color: #d80404;
+  margin: 0;
+  padding: 0.8vw;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.requestQuote:hover{
+  color: white;
+  background-color: black;
+}
+
+.h100{
+  height: 100%;
+  margin: 0 !important;
+}
+
+
+
+.newsection{
+  height: 1vw;
+}
+
+.reqnow{
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  width: fit-content;
+  padding: 1vw;
+  text-align: center;
 }
