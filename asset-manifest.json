@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ReactLab/static/css/main.c72b7377.chunk.css",
+    "main.css": "/ReactLab/static/css/main.48d9a1d5.chunk.css",
     "main.js": "/ReactLab/static/js/main.3bc592f3.chunk.js",
     "main.js.map": "/ReactLab/static/js/main.3bc592f3.chunk.js.map",
     "runtime-main.js": "/ReactLab/static/js/runtime-main.e2bea448.js",
@@ -10,7 +10,7 @@
     "static/js/2.b9754ebe.chunk.js.map": "/ReactLab/static/js/2.b9754ebe.chunk.js.map",
     "index.html": "/ReactLab/index.html",
     "static/css/2.081f420c.chunk.css.map": "/ReactLab/static/css/2.081f420c.chunk.css.map",
-    "static/css/main.c72b7377.chunk.css.map": "/ReactLab/static/css/main.c72b7377.chunk.css.map",
+    "static/css/main.48d9a1d5.chunk.css.map": "/ReactLab/static/css/main.48d9a1d5.chunk.css.map",
     "static/js/2.b9754ebe.chunk.js.LICENSE.txt": "/ReactLab/static/js/2.b9754ebe.chunk.js.LICENSE.txt",
     "static/media/MainLogo.e7c7cf34.png": "/ReactLab/static/media/MainLogo.e7c7cf34.png",
     "static/media/aboutimg.c4cd357a.jpg": "/ReactLab/static/media/aboutimg.c4cd357a.jpg",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.e2bea448.js",
     "static/css/2.081f420c.chunk.css",
     "static/js/2.b9754ebe.chunk.js",
-    "static/css/main.c72b7377.chunk.css",
+    "static/css/main.48d9a1d5.chunk.css",
     "static/js/main.3bc592f3.chunk.js"
   ]
 }
