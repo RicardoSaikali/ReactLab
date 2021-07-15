@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactLab/static/css/main.8fc516fc.chunk.css",
-    "main.js": "/ReactLab/static/js/main.9155ec81.chunk.js",
-    "main.js.map": "/ReactLab/static/js/main.9155ec81.chunk.js.map",
+    "main.js": "/ReactLab/static/js/main.d00ca93c.chunk.js",
+    "main.js.map": "/ReactLab/static/js/main.d00ca93c.chunk.js.map",
     "runtime-main.js": "/ReactLab/static/js/runtime-main.e2bea448.js",
     "runtime-main.js.map": "/ReactLab/static/js/runtime-main.e2bea448.js.map",
     "static/css/2.081f420c.chunk.css": "/ReactLab/static/css/2.081f420c.chunk.css",
@@ -30,6 +30,6 @@
     "static/css/2.081f420c.chunk.css",
     "static/js/2.e787945b.chunk.js",
     "static/css/main.8fc516fc.chunk.css",
-    "static/js/main.9155ec81.chunk.js"
+    "static/js/main.d00ca93c.chunk.js"
   ]
 }
