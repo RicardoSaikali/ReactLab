@@ -6,7 +6,6 @@ function App() {
   const pvcFences = ["Black Lava", "Classic Beige", "Grey Special"]
   return (
     <div className="App">
-      <Navbar></Navbar>
       <Home></Home>
       
 

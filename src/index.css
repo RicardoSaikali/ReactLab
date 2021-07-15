@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .subtitle{
   font-size: 3vw;
 }
@@ -46,9 +49,13 @@ code {
 .navTitle{
   margin: 0;
   padding: 1vw;
-  background-color: black;
   color: white;
   font-size: 3vw;
+}
+
+.navbar1{
+  background-color: black;
+  display: flex;
 }
 
 .MainLogo{
@@ -56,7 +63,6 @@ code {
   padding: 0;
   height: 1.5em;
   vertical-align: middle;
-
 }
 
 .homeimg{
@@ -111,25 +117,24 @@ code {
 
 .browseOptions{
   display:inline-block;
-  margin: 30px;
+  margin: 1vw;
   margin-bottom: 0;
-  padding:15px;
-  border:0.1em solid #000000;
+  padding: 1vw;
+  border:0.05em solid rgba(0, 0, 0, 0.657);
   border-radius:0.12em;
   box-sizing: border-box;
   text-decoration:none;
   font-family:'Roboto',sans-serif;
-  background-color: #000000;
+  background-color: #d80404;
   color: white;
   font-size: 1.75vw;
   font-weight: 300;
   text-align:center;
-  transition: all 0.6s;
 }
 
 .browseOptions:hover{
-  color:black;
-  background-color:#FFFFFF;
+  color:white;
+  background-color:black;
   }
 
 /* about */
@@ -162,7 +167,9 @@ code {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.8vw;
-  background-color: rgba(216, 4, 4, 0.78);
+  /* background-color: rgba(216, 4, 4, 0.78); */
+  background-color: rgba(0, 0, 0, 0.78);
+color: white;
   padding: 1vw;
   color: #FFFFFF; 
   height: fit-content;
@@ -172,7 +179,7 @@ code {
 
 .abouttable{
   position: absolute;
-  top: 80%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -183,12 +190,12 @@ code {
 }
 
 .aboutitem{
-  font-size: 1.8vw;
+  font-size: 3vw;
   background-color: rgba(216, 4, 4, 0.78);
   padding: 1vw;
   color: #FFFFFF; 
   width: fit-content;
-  margin: 0px;
+  margin: 0;
   text-align: center;
   display: table-cell;
 
@@ -229,6 +236,7 @@ code {
   background-color: white !important;
   padding: 1vw !important;
   vertical-align: middle !important;
+  cursor: pointer;
 }
 
 .card-header:hover{
@@ -294,4 +302,113 @@ code {
   width: fit-content;
   padding: 1vw;
   text-align: center;
+  font-size: 2vw;
+  background-color:#d80404;
+  border:0.05em solid rgba(0, 0, 0, 0.657);
+  color: #FFFFFF;
+}
+
+.reqnow:hover{
+  background-color: black;
+  color:white;
+}
+
+.steps{
+  font-size: 1.7vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  margin: 0 !important;
+  ;
+}
+
+.modal-body{
+  padding-top: 0 !important;
+  margin: 0 !important;
+}
+
+.modal-title{
+  font-size: 2vw !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  text-align: center !important;
+  margin-left: auto !important;
+}
+
+.modal-header{
+  padding: 1vw !important;
+  text-align: center !important;
+}
+
+.labels{
+  font-size: 1.6vw;
+}
+
+.myhover:hover{
+  border: 1px solid #0d6efd;
+}
+
+.inputBooking{
+  font-size: 1.5vw !important;
+  padding-top: 0.1em !important;
+  padding-bottom: 0.1em !important;
+  padding-right: 0.5em !important;
+  padding-left: 0.5em !important;
+}
+
+.form-group{
+  margin-bottom: 0 !important;
+}
+
+.modal-lg{
+  width: 70% !important;
+  max-width: none !important;
+}
+
+.submit {
+  font-size: 1.5vw !important;
+  background-color: #0d6efd !important;
+  color: white !important;
+}
+
+.closebtn{
+  font-size: 1.5vw !important;
+  color: white !important;
+}
+
+.thanks{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+.navTitle{
+
+}
+
+.lang{
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.langbtn{
+  text-align: center;
+  height: fit-content;
+  font-size: 1.5vw;
+  margin-right: 1vw;
+  
+  color: white;
+  background-color: #d80404;
+  text-align: center;
+  font-size: 1.5vw;
+  border:0.05em solid rgba(0, 0, 0, 0.657);
+}
+
+.langbtn:hover{
+  background-color: grey;
+
+}
+
+.t6 .aboutitem{
+padding: 2.64vw !important;
 }
