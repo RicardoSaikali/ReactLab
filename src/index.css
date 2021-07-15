@@ -58,6 +58,10 @@ code {
   display: flex;
 }
 
+.navbar2{
+  background-color: black;
+}
+
 .MainLogo{
   margin: 0;
   padding: 0;

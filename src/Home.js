@@ -76,7 +76,7 @@ const Home = () => {
 
     const t13 = [<p className="browsetoday subtitle"> Browsed All Options And Still Not Sure Fence Is For You?<br></br>Request A Quote Anyways!</p>,
 
-        <p className="browsetoday subtitle"> Vous avez parcouru toutes les options et vous n'êtes toujours pas sûr quelle clôture choisir?<br></br>Demandez un devis quand même !</p>];
+        <p className="browsetoday subtitle"> Vous n'êtes toujours pas sûr quelle clôture choisir ?<br></br>Demandez un devis quand même !</p>];
     
     const t14 = [<button onClick={() => newModal("General Quote Request")} className="reqnow">Request a Quote Now {'>'}</button>,
         <button onClick={() => newModal("General Quote Request")} className="reqnow">Demandez un devis maintenant {'>'}</button>];
@@ -84,7 +84,7 @@ const Home = () => {
 
     const t15 = [];
 
-    
+
     const setEN = () =>{
         setLang(0);
     }
@@ -327,10 +327,10 @@ const Home = () => {
             {t14[lang]}
             </div>
 
-            <nav className="navbar1">
+            <div className="navbar2">
             <p className="contactInfo"><img src={phone} alt="phone logo" className="phoneIcon" /> (613) 123 - 4567 | <img src={email} alt="email icon" className="emailIcon" /> Ottawa@fencepros.ca</p>
             
-            </nav>
+            </div>
             
 
             <Modal
