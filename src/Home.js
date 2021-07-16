@@ -82,8 +82,30 @@ const Home = () => {
         <button onClick={() => newModal("General Quote Request")} className="reqnow">Demandez un devis maintenant {'>'}</button>];
 
 
-    const t15 = [];
+    const f1 = [<p className="fenceName">Horizontaly Boarded Wooden Fence</p>, <p className="fenceName">Clôture en bois à planches horizontaux</p>];
 
+    const f2 = [<p className="fenceName">Vertically Boarded Wooden Fence</p>, <p className="fenceName">Clôture en bois à planches verticales</p>];
+
+    const f3 =[<p className="fenceName">Custom Wooden Fence</p>, <p className="fenceName">Clôture en bois Personnalisé</p>];
+
+    const d1 = [<p className="fenceDesc">This modern styled wooden fence is guaranteed to last you at least 15 years. The look will match your modern styled home with ease and offer you the security and privacy you deserve!</p>, 
+        <p className="fenceDesc">Cette clôture en bois de style moderne est garantie pour vous durer au moins 15 ans. Le look s'agencera facilement à votre maison de style moderne et vous offrira la sécurité et l'intimité que vous méritez !</p>];
+
+    const d2 = [<p className="fenceDesc">This Horizontally boarded wooden fence is guaranteed to last you at least 10 years. If you want a traditional fence that offers security and privacy, this style is for you!</p>,
+        <p className="fenceDesc">Cette clôture en bois à planches horizontales est garantie pour vous durer au moins 10 ans. Si vous voulez une clôture traditionnelle qui offre sécurité et intimité, ce style est fait pour vous !
+        </p>];
+
+    const d3 = [<p className="fenceDesc">This fence option is for those who want to go above and beyond with their fence. We will directly collaborate with you to design and install the fence of your dreams. Anything you would like on this fence, we will make it happen!</p>, 
+        <p className="fenceDesc">Cette option de clôture est destinée à ceux qui veulent aller au-delà avec leur clôture. Nous collaborerons directement avec vous pour concevoir et installer la clôture de vos rêves. Tout ce que vous voudriez sur cette clôture, nous le réaliserons!</p>];
+
+    const b1 = [<button onClick={() => newModal("Horizontaly Boarded Wooden Fence Quote Request")} className="requestQuote">Request a Quote {'>'}</button>,
+    <button onClick={() => newModal("Horizontaly Boarded Wooden Fence Quote Request")} className="requestQuote">Demandez un devis {'>'}</button>];
+
+    const b2 = [<button onClick={() => newModal("Vertically Boarded Wooden Fence Quote Request")} className="requestQuote">Request a Quote {'>'}</button>,
+    <button onClick={() => newModal("Vertically Boarded Wooden Fence Quote Request")} className="requestQuote">Demandez un devis {'>'}</button>];
+
+    const b3 = [<button onClick={() => newModal("Custom Wooden Fence Quote Request")} className="requestQuote">Request a Quote {'>'}</button>,
+        <button onClick={() => newModal("Custom Wooden Fence Quote Request")} className="requestQuote">Demandez un devis {'>'}</button>];
 
     const setEN = () =>{
         setLang(0);
@@ -185,27 +207,36 @@ const Home = () => {
                             <tr className="fencesrow">
                             <td className="center h100">
                             <div className="fencecard">
-                                <p className="fenceName">Horizontaly Boarded Wooden Fence</p>
+                                {/* <p className="fenceName">Horizontaly Boarded Wooden Fence</p> */}
+                                {f1[lang]}
                                 <img src={wood1} alt="" className="fenceoptionimg" />
-                                <p className="fenceDesc"></p>
-                                <button onClick={() => newModal("Horizontaly Boarded Wooden Fence Quote Request")} className="requestQuote">Request a Quote {'>'}</button> 
-
+                                {/* <p className="fenceDesc"></p> */}
+                                {d1[lang]}
+                                {/* <button onClick={() => newModal("Horizontaly Boarded Wooden Fence Quote Request")} className="requestQuote">Request a Quote {'>'}</button>
+                                  */}
+                                {b1[lang]}
                             </div>
                             </td>
                             <td className="center h100">
                             <div className="fencecard">
-                                <p className="fenceName">Vertically Boarded Wooden Fence</p>
+                                {/* <p className="fenceName">Vertically Boarded Wooden Fence</p> */}
+                                {f2[lang]}
                                 <img src={wood2} alt="" className="fenceoptionimg" />
-                                <p className="fenceDesc">My desc</p>
-                                <button onClick={() => newModal("Vertically Boarded Wooden Fence Quote Request")} className="requestQuote">Request a Quote {'>'}</button>
+                                {/* <p className="fenceDesc">My desc</p> */}
+                                {d2[lang]}
+                                {/* <button onClick={() => newModal("Vertically Boarded Wooden Fence Quote Request")} className="requestQuote">Request a Quote {'>'}</button> */}
+                                {b2[lang]}
                             </div>
                             </td>
                             <td className="center h100">
                             <div className="fencecard">
-                                <p className="fenceName">Custom Wooden Fence</p>
+                                {/* <p className="fenceName">Custom Wooden Fence</p> */}
+                                {f3[lang]}
                                 <img src={wood3} alt="" className="fenceoptionimg" />
-                                <p className="fenceDesc">My desc</p>
-                                <button onClick={() => newModal("Custom Wooden Fence Quote Request")} className="requestQuote">Request a Quote {'>'}</button>
+                                {/* <p className="fenceDesc">My desc</p> */}
+                                {d3[lang]}
+                                {/* <button onClick={() => newModal("Custom Wooden Fence Quote Request")} className="requestQuote">Request a Quote {'>'}</button> */}
+                                {b3[lang]}
                             </div>
                             </td>
                             </tr>
@@ -231,7 +262,7 @@ const Home = () => {
                             <div className="fencecard">
                                 <p className="fenceName">Classic PVC Fence</p>
                                 <img src={pvc1} alt="" className="fenceoptionimg" />
-                                <p className="fenceDesc"></p>
+                                <p className="fenceDesc">This classic PVC fence is guaranteed to last you a lifetime! It is a style that is sure to offer privacy and security to your home all whilst adding a modern look!</p>
                                 <button onClick={() => newModal("Classic PVC Fence Quote Request")} className="requestQuote">Request a Quote {'>'}</button>
                             </div>
                             </td>
@@ -239,7 +270,7 @@ const Home = () => {
                             <div className="fencecard">
                                 <p className="fenceName">Classic PVC Fence with Lattice</p>
                                 <img src={pvc2} alt="" className="fenceoptionimg" />
-                                <p className="fenceDesc">My desc</p>
+                                <p className="fenceDesc">This type of fence has a limited lifetime guarantee! It offers you security, privacy and is the modern defenition of fences, with the lattic adding a bit of extra style. </p>
                                 <button onClick={() => newModal("Classic PVC Fence with Lattice Quote Request")} className="requestQuote">Request a Quote {'>'}</button>
                             </div>
                             </td>
@@ -247,7 +278,7 @@ const Home = () => {
                             <div className="fencecard">
                                 <p className="fenceName">Horizontally boarded PVC Fence</p>
                                 <img src={pvc3} alt="" className="fenceoptionimg" />
-                                <p className="fenceDesc">My desc</p>
+                                <p className="fenceDesc">This horizontally boarded fence is guaranteed to last you a lfetime! Additionally, you will be sure that your fence stands out in your neighbourhood with its unique style, all while offering a sense of security and privacy!</p>
                                 <button onClick={() => newModal("Horizontally boarded PVC Fence Quote Request")} className="requestQuote">Request a Quote {'>'}</button>
                             </div>
                             </td>
@@ -275,7 +306,7 @@ const Home = () => {
                             <div className="fencecard">
                                 <p className="fenceName">Vinyl Coated Chain Link Fence</p>
                                 <img src={chain} alt="" className="fenceoptionimg" />
-                                <p className="fenceDesc"></p>
+                                <p className="fenceDesc">This chain link fence is coated in a colored vinyl of your choice. This prevents rust from taking over your fence, and adds style to your fence.</p>
                                 <button onClick={() => newModal("Vinyl Coated Chain Link Fence Quote Request")} className="requestQuote">Request a Quote {'>'}</button>
                             </div>
                             </td>
@@ -283,7 +314,7 @@ const Home = () => {
                             <div className="fencecard">
                                 <p className="fenceName">Galvanized Chain Link Fence</p>
                                 <img src={chain2} alt="" className="fenceoptionimg" />
-                                <p className="fenceDesc">My desc</p>
+                                <p className="fenceDesc">Galvanizing the chain link fence allows the fence to last much longer than typical chain link fences. This is a special process done by our manufacturers which improves the quality of the material, and helps prevent rust!</p>
                                 <button onClick={() => newModal("Galvanized Chain Link Fence Quote Request")} className="requestQuote">Request a Quote {'>'}</button>
                             </div>
                             </td>
@@ -291,7 +322,7 @@ const Home = () => {
                             <div className="fencecard">
                                 <p className="fenceName">Chain Link Fence with Slats</p>
                                 <img src={chain3} alt="" className="fenceoptionimg" />
-                                <p className="fenceDesc">My desc</p>
+                                <p className="fenceDesc">For this style, we use the chain link materials of your choice. Additionally we add slats, which are made of a durable plastic, to add privacy and style to your fence!</p>
                                 <button onClick={() => newModal("Chain Link Fence with Slats Quote Request")} className="requestQuote">Request a Quote {'>'}</button>
                             </div>
                             </td>
@@ -384,10 +415,8 @@ const Home = () => {
                         <label className="labels" for="fenceHeight">I Want My Fence To Be:</label>
                         <select name="" id="" className="form-control myhover inputBooking">
                             <option value="NA">I'm not sure how high</option>
-                            <option value="4">4ft</option>
-                            <option value="4L">4ft with a lattice</option>
+                            <option value="4">4ft tall</option>
                             <option value="6">6ft tall</option>
-                            <option value="6L">6ft with a lattice</option>
                             <option value="7">7ft tall</option>
                         </select>
                     </div>

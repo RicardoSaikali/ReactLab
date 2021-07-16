@@ -149,6 +149,7 @@ code {
   margin: 0;
   padding: 0.8vw;
   padding-left: 1vw;
+  text-align: center;
 }
 
 .aboutcontainer{
@@ -263,12 +264,16 @@ color: white;
 }
 
 .fenceDesc{
-  font-size: 1vw;
+  font-size: 1.2vw;
+  text-align: left;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .fencetable{
   table-layout: fixed;
   width: 100%;
+  height: fit-content;
 }
 
 .fenceoptionimg{
